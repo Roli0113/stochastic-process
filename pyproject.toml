@@ -4,7 +4,12 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "jupyter>=1.1.1",
+    "notebook>=7.6.3",
+    "pandas>=2.3.3",
+    "polars>=1.44.2",
+]
 
 [project.scripts]
 stochastic-process-python = "stochastic_process_python:main"
